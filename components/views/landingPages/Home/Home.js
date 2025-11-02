@@ -104,17 +104,17 @@ const Home = () => {
                 <MapPin className="w-5 h-5 text-blue-600 mt-1 flex-shrink-0" />
                 <div>
                   <p className="font-semibold text-slate-900">137.NL B.V.</p>
-                  <p className="text-slate-600">Rosmalen, The Netherlands</p>
+                  <p className="text-slate-600">Rosmalen, The Netherlands <br/>KVK 35031168</p>
                 </div>
               </div>
               
               <div className="flex items-center gap-3">
                 <Mail className="w-5 h-5 text-blue-600 flex-shrink-0" />
                 <a 
-                  href="mailto:contact@137.nl" 
+                  href="mailto:martijn@137.nl" 
                   className="text-blue-600 hover:text-blue-700"
                 >
-                  contact@137.nl
+                  martijn@137.nl
                 </a>
               </div>
               
@@ -137,6 +137,25 @@ const Home = () => {
       {/* Footer */}
       <footer className="bg-white border-t border-slate-200 mt-16">
         <div className="max-w-4xl mx-auto px-6 py-8 text-center text-slate-600">
+          <div className="flex justify-center gap-6 mb-4">
+            <a 
+              href="https://www.tarot.pro/privacy/" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="hover:text-blue-600 transition-colors"
+            >
+              Privacy Policy
+            </a>
+            <span>•</span>
+            <a 
+              href="https://www.tarot.pro/terms/" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="hover:text-blue-600 transition-colors"
+            >
+              Terms of Service
+            </a>
+          </div>
           <p>&copy; {new Date().getFullYear()} 137.NL B.V. All rights reserved.</p>
         </div>
       </footer>
