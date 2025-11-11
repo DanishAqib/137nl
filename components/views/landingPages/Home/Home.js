@@ -8,6 +8,7 @@ const Home = () => {
       <header className="bg-white shadow-sm">
         <div className="max-w-4xl mx-auto px-6 py-8">
           <h1 className="text-4xl font-bold text-slate-900 mb-2">137.NL</h1>
+          <p className="text-sm text-slate-500 mb-2">137.NL is a formal trading name of Gayatri's Mahl B.V.</p>
           <p className="text-lg text-slate-600">
             Digital studio creating AI-powered apps for reflection, insight, and personal growth.
           </p>
@@ -98,6 +99,7 @@ const Home = () => {
         {/* Contact Section */}
         <section>
           <h2 className="text-2xl font-bold text-slate-900 mb-4">Contact</h2>
+          <p className="text-sm text-slate-500 mb-4">137.NL is a formal trading name of Gayatri's Mahl B.V.</p>
           <div className="bg-white rounded-lg shadow-md p-8">
             <div className="space-y-3">
               <div className="flex items-start gap-3">
